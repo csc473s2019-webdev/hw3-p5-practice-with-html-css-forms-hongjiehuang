@@ -43,7 +43,7 @@
                 <div class="mylabels">
                 <label id="choice-label">Please pick your first choice:</label></div>
                 <div class="rightfunction">
-                <select id="dropdown">
+                <select id="dropdown" class="barsize">
                     <option value="Software Developer">Software Developer</option>
                     <option value="Computer Hardware Engineer">Computer Hardware Engineer</option>
                     <option value="Computer Systems Analyst">Computer Systems Analyst</option>
@@ -55,11 +55,12 @@
                     <option value="Network Security Administrator">Network Security Administrator</option>                    
                 </select></div>
             </div>
+
             <div class="choice">
                 <div class="mylabels">
                 <label id="choice-label">Please pick your second choice:</label></div>
                 <div class="rightfunction">
-                <select id="dropdown">
+                <select id="dropdown" class="barsize">
                     <option value="Software Developer">Software Developer</option>
                     <option value="Computer Hardware Engineer">Computer Hardware Engineer</option>
                     <option value="Computer Systems Analyst">Computer Systems Analyst</option>
@@ -71,9 +72,10 @@
                     <option value="Network Security Administrator">Network Security Administrator</option>                    
                 </select> </div>
             </div>
+            
             <div class="checkbox">
                 <div class="mylabels">
-                <label for="fields">You interested technology fields:</label></div>
+                <label for="fields">Please check your interested technology fields:</label></div>
                 <div class="rightfunction">
                     <input type="checkbox" name="fields" value="Robotics">Robotics<br>
                     <input type="checkbox" name="fields" value="Self-Driving Cars">Self-Driving Cars<br>
@@ -92,7 +94,7 @@
                 <div class="mylabels">
                 <label id="comment-label">Do you have any interesting project ideas or links that you want to share?</label><br></div>
                 <div class="rightfunction">
-                <textarea id="comments" style="height:100px;resize:vertical;" name="comments" placeholder="Ideas that might change the world go here..."></textarea> </div>
+                <textarea id="comments" style="height:100px;width: 200px;resize:vertical;" name="comments" placeholder="Ideas that might change the world go here..."></textarea> </div>
             </div>
             </div>
             <button id="submit" type="submit">Submit</button>
