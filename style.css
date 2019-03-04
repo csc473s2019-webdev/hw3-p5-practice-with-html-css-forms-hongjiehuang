@@ -3,7 +3,7 @@ body {
     text-align: center;
 }
 
-#myform {
+.mysurvey {
     background-color:whitesmoke;
     width: 75%;
     margin: auto;
@@ -16,4 +16,28 @@ body {
     font-family: 'Raleway';
 }
 
-    
+#name-label, #email-label, #number-label {
+    display: inline-block;
+    text-align: right;
+    width: 5%;
+    padding-right: 10px;
+}
+
+#gender-label{
+    display: inline-block;
+    text-align: right;
+    width: 5%;
+    padding-right: 65px;
+}
+
+
+
+.input-field {
+    height: 20px;
+    width: 280px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+  }
+  
