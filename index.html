@@ -13,28 +13,32 @@
         <p id="description">What is your future goal job as a Computer Science student? </p>
         <form id="survey-form">
             <div>
-                <label for="name" id="name-label"> Name:</label>   
+            <div class="mylabels">
+                <label for="name" id="name-label">Name:</label></div> 
                 <input type="text" id="name" class="input-field" placeholder="Please enter your name" required>
             </div>
 
             <div>
-                <label for="email" id="email-label"> Email:</label>
+            <div class="mylabels">
+                <label for="email" id="email-label">Email:</label></div> 
                 <input type="email" id="email" class="input-field" placeholder="Please enter your email" required>
 
-            <div>
-                <label for="age" id="number-label">  Age:</label>   
+            <div class="mylabels">
+                <label for="age" id="number-label">Age:</label></div>   
                 <input type="number" id="number" class="input-field" placeholder="Please enter your age" min="1" max="120" required>
             </div>
 
             <div class="gender">
-                <label id="gender-label">Gender:</label>
+                <div class="mylabels">
+                <label for="gender" id="gender-label">Gender:</label></div> 
                 <input type="radio" name="gender" value="male" id="male">Male
                 <input type="radio" name="gender" value="female" id="female">Female
                 <input type="radio" name="gender" value="other" id="other">Other
             </div>
         
             <div class="choice">
-                <label id="choice-label">Please pick your first choice</label>
+                <div class="mylabels">
+                <label id="choice-label">Please pick your first choice</label></div>
                 <select id="dropdown">
                     <option value="Software Developer">Software Developer</option>
                     <option value="Computer Hardware Engineer">Computer Hardware Engineer</option>
@@ -48,7 +52,8 @@
                 </select>
             </div>
             <div class="choice">
-                <label id="choice-label">Please pick your second choice</label>
+                <div class="mylabels">
+                <label id="choice-label">Please pick your second choice</label></div>
                 <select id="dropdown">
                     <option value="Software Developer">Software Developer</option>
                     <option value="Computer Hardware Engineer">Computer Hardware Engineer</option>
@@ -62,7 +67,8 @@
                 </select>
             </div>
             <div class="checkbox">
-                <label for="fields">The Technology fields that you are interested in</label>
+                <div class="mylabels">
+                <label for="fields">The Technology fields that you are interested in</label></div>
                 <div class="fields">
                     <input type="checkbox" name="fields" value="Robotics">Robotics
                     <input type="checkbox" name="fields" value="Self-Driving Cars">Self-Driving Cars
@@ -78,8 +84,9 @@
             </div>
             
             <div class="comments">
+                <div class="mylabels">
                 <label id="comment-label">Do you have any interesting project ideas that you want to share?
-                <br>Post the links or ideas below!</label><br>
+                <br>Post the links or ideas below!</label><br></div>
                 <textarea id="comments" style="height:50px;resize:vertical;" name="comments" placeholder="Ideas that might change the world go here..."></textarea>
             </div>
             </div>
