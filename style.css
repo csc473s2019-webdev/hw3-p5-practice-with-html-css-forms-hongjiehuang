@@ -7,8 +7,6 @@ body {
     background-color:whitesmoke;
     width: 75%;
     margin: auto;
-    min-height: 1050px;
-    margin: 0 auto;
     border-radius: 4px;
     padding: 10px;
     padding-top: 20px;
@@ -24,16 +22,6 @@ body {
     vertical-align: top;
     margin-top: 10px;
   }
-  
-
-.input-field {
-    height: 20px;
-    width: 280px;
-    padding: 5px;
-    margin: 10px;
-    border: 1px solid #c0c0c0;
-    border-radius: 2px;
-  }
 
   .rightfunction {
     display: inline-block;
@@ -41,4 +29,24 @@ body {
     width: 40%;
     vertical-align: middle;
   }
-  
+
+  .input-field {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    padding: 7px;
+    border-radius: 2px;
+    height: 20px;
+    width: 40%;
+  }
+
+  #submit {
+    background-color: #59ace0;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    height: 45px;
+    width: 95px;
+    margin: 15px;
+    border: 0px solid;
+  }
